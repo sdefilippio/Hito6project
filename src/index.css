@@ -1,0 +1,80 @@
+/* Estilos globales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para componentes de pizzas */
+.pizza-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.pizza-item {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+}
+
+.pizza-item img {
+  width: 100%;
+  height: auto;
+}
+
+.pizza-item h3 {
+  margin: 10px 0;
+}
+
+.pizza-item p {
+  color: #666;
+  margin: 0 0 10px;
+}
+
+.pizza-item button {
+  background-color: #e60000;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  cursor: pointer;
+}
+
+.pizza-item button:hover {
+  background-color: #d60000;
+}
